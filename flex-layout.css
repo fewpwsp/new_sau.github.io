@@ -1,0 +1,145 @@
+/* ==========================================================================
+   Стили Flexbox-верстки для сайта ИСАУ
+   ========================================================================== */
+
+/* Отмена устаревших обтеканий float */
+.floatleft, .floatright, .clr {
+  float: none !important;
+  clear: both !important;
+}
+
+/* 1. Верхняя секция: Слайдер и Блок Новостей */
+.flex-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+#vt_news_show {
+  flex: 0 0 628px; /* Фиксированная ширина под слайдер */
+}
+
+#vt_drawer {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* 2. Полоса с Хлебными крошками и Поиском */
+.flex-breadcrumb-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#vt_pathway {
+  flex: 1 1 auto;
+}
+
+#vt_top {
+  flex: 0 0 auto;
+}
+
+/* 3. Основной макет: Контент + Правый сайдбар */
+.flex-main-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#vt_main_contaner {
+  flex: 1 1 640px;
+  min-width: 0;
+}
+
+#vt_nav_right {
+  flex: 0 0 300px;
+}
+
+/* Правый сайдбар на Flexbox */
+.flex-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 4. Главные статьи верхнего блока */
+.flex-articles-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.flex-articles-grid .cols2 {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+}
+
+/* 5. Карточки кафедр в двух колонках */
+.flex-inset-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.inset-column {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.moduletable_boxnews {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.boxnews_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.readmore {
+  margin-top: auto;
+}
+
+/* Кнопка виртуальной экскурсии */
+.virtual-tour-btn {
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: #ffdead;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  width: 270px;
+  box-shadow: 2px 2px 2px #c2c2c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 6. Подвал (Footer) */
+.flex-footer-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
