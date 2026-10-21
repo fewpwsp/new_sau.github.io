@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОБ ИНСТИТУТЕ САУ</title>
+    
+    <link href="./sau_files/template.css" rel="stylesheet">
+    <link href="./sau_files/css" rel="stylesheet">
+
+    <style>
+        font-family-body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6, .site-title {
+            font-family: 'Open Sans', sans-serif;
+        }
+        body.site {
+            margin: 0;
+            padding: 0;
+            border-top: 3px solid #f38120;
+            background-color: #f4f6f7;
+        }
+        a {
+            color: #f38120;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Главный контейнер */
+        .container {
+            max-width: 1170px;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        .header-inner .brand img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+
+        .navigation {
+            background-color: #ffffff;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .nav-menu {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-menu > li {
+            position: relative;
+        }
+        .nav-menu > li > a {
+            display: block;
+            padding: 12px 18px;
+            color: #333;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .nav-menu > li.active > a,
+        .nav-menu > li > a:hover {
+            background-color: #f38120;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav-menu .nav-child {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #fff;
+            min-width: 240px;
+            list-style: none;
+            margin: 0;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            z-index: 1000;
+            flex-direction: column;
+        }
+        .nav-menu li:hover > .nav-child {
+            display: flex;
+        }
+        .nav-menu .nav-child a {
+            padding: 8px 15px;
+            color: #333;
+            font-size: 13px;
+        }
+        .nav-menu .nav-child a:hover {
+            background-color: #f4f6f7;
+            color: #f38120;
+        }
+
+
+        .main-wrapper {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .main-content {
+            flex: 3; 
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .sidebar {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        
+        .sidebar .well {
+            background-color: #ffffff;
+            border: 1px solid #e3e3e3;
+            border-radius: 4px;
+            padding: 15px;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+        }
+        .sidebar img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        
+        .footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #e5e5e5;
+            background-color: #ffffff;
+        }
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .nav-menu {
+                flex-direction: column;
+            }
+            .nav-menu .nav-child {
+                position: static;
+                box-shadow: none;
+                padding-left: 15px;
+            }
+            .main-wrapper {
+                flex-direction: column;
+            }
+            .main-content, .sidebar {
+                width: 100%;
+            }
+            .footer-inner {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body class="site com_content view-article no-layout no-task itemid-112">
+
+    <div class="body" id="top">
+        <div class="container">
+            
+          
+            <header class="header" role="banner">
+                <div class="header-inner">
+                    <a class="brand" href="https://saudubna.ru/">
+                        <img src="./sau_files/wUNUYOW5rSQ.jpg" alt="Институт системного анализа и управления">
+                    </a>
+                    <div class="header-search">
+                    </div>
+                </div>
+            </header>
+
+            <nav class="navigation" role="navigation">
+                <ul class="nav-menu">
+                    <li class="item-112 default current active">
+                        <a href="https://saudubna.ru/">ОБ ИНСТИТУТЕ САУ</a>
+                    </li>
+                    <li class="item-118">
+                        <a href="https://eios.uni-dubna.ru/schedule" target="_blank" rel="noopener noreferrer">РАСПИСАНИЕ</a>
+                    </li>
+                    <li class="item-113">
+                        <a href="https://new2.uni-dubna.ru/directions" target="_blank" rel="noopener noreferrer">АБИТУРИЕНТАМ</a>
+                    </li>
+                    <li class="item-114">
+                        <a href="https://uni-dubna.ru/Science/Postgraduate" target="_blank" rel="noopener noreferrer">АСПИРАНТАМ</a>
+                    </li>
+                    <li class="item-115 deeper parent">
+                        <a href="#">ДОПОЛНИТЕЛЬНЫЕ КОМПЕТЕНЦИИ</a>
+                        <ul class="nav-child">
+                            <li class="item-116"><a href="https://vk.com/itschool.dubna" target="_blank" rel="noopener noreferrer">МЕЖДУНАРОДНАЯ ШКОЛА «АНАЛИТИКА БОЛЬШИХ ДАННЫХ»</a></li>
+                            <li class="item-117"><a href="https://vk.com/stp.dubna" target="_blank" rel="noopener noreferrer">ШКОЛА ТЕХНОЛОГИЧЕСКОГО ПРЕДПРИНИМАТЕЛЬСТВА</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-108 deeper parent">
+                        <a href="#">КОНТАКТЫ</a>
+                        <ul class="nav-child">
+                            <li class="item-111"><a href="https://saudubna.ru/kontakty/institut-sau">ИНСТИТУТ САУ</a></li>
+                            <li class="item-110"><a href="https://saudubna.ru/kontakty/uchebnaya-chast-isau">УЧЕБНАЯ ЧАСТЬ ИСАУ</a></li>
+                            <li class="item-109"><a href="https://saudubna.ru/kontakty/spisok-pps">ПРЕПОДАВАТЕЛИ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            
+            <div class="main-wrapper">
+                
+                <!-- Основной блок -->
+                <main id="content" class="main-content" role="main">
+                    <div id="system-message-container"></div>
+
+                    <article class="item-page" itemscope="" itemtype="https://schema.org/Article">
+                        <meta itemprop="inLanguage" content="ru-RU">
+                        <div class="page-header">
+                            <h2 itemprop="headline">Об Институте САУ</h2>
+                        </div>
+                        <div itemprop="articleBody">
+                            <p>Институт системного анализа и управления (Институт САУ) является структурным подразделением Университета «Дубна», объединяющим выпускающие кафедры и подразделения.</p>
+                            <p><img style="display: block; margin: 0 auto; max-width: 100%; height: auto;" src="./sau_files/isau.jpg" alt="Институт САУ"></p>
+                        </div>
+                    </article>
+                </main>
+
+                
+                <aside id="aside" class="sidebar" role="complementary">
+                    <div class="well">
+                        <div class="custom">
+                            <div id="vk_groups" style="width: 100%; height: 185px; background: transparent;">
+                                <iframe name="fXD993af" frameborder="0" src="./sau_files/widget_community.html" width="180" height="185" scrolling="no" id="vkwidget1" style="overflow: hidden;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="well">
+                        <div class="custom">
+                            <a href="https://sanse.ru/" target="_blank" title="Перейти"><img src="./sau_files/sanse.jpg" alt="Sanse"></a>
+                        </div>
+                    </div>
+                    <div class="well">
+                        <div class="custom">
+                            <p><a title="Читать" href="https://saudubna.ru/docs/2022_Pamyatka_pervokursniku_ISAU.pdf" target="_blank" rel="noopener noreferrer"><img src="./sau_files/pp.jpg" alt="Памятка первокурснику"></a></p>
+                        </div>
+                    </div>
+                    <div class="well">
+                        <div class="custom">
+                            <a href="https://uni-dubna.ru/" target="_blank" title="Перейти"><img src="./sau_files/logo-uni-light.png" alt="Университет Дубна"></a>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+
+   
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-inner">
+                <p>© 2025 Институт системного анализа и управления</p>
+                <p><a href="#top" id="back-top">Наверх ↑</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
